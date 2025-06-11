@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Square</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <!-- AOS (Animate On Scroll) CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+      rel="stylesheet"
+    />
+
+    <style>
+      /* Your custom styles here */
+      body {
+        font-family: Arial, sans-serif;
+      }
+      .hover-underline {
+        display: inline-block;
+        margin-top: 5px;
+        padding-bottom: 5px;
+        border-bottom: 4px solid transparent;
+        transition: border-color 0.3s;
+      }
+      .hover-underline a {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.55);
+        font-weight: bold;
+      }
+
+      .hover-underline:hover {
+        border-color: red;
+      }
+      .btn-pink {
+        background-color: #e70f3a; /* Pink color */
+        color: white;
+        border: none;
+      }
+      .hero h1 {
+        font-size: 3rem;
+      }
+      .w-95 {
+        width: 95%;
+      }
+      .indicatorsarrow i {
+        margin-top: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light px-4">
+  <div class="container-fluid">
+    <!-- Logo -->
+    <a class="navbar-brand fw-bold" href="#">
+      <span class="border border-dark border-1 pt-2 ps-3">S</span>QUARE
+    </a>
+
+    <!-- Toggler -->
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarContent"
+      aria-controls="navbarContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Collapsible Content -->
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-4">
+        <li class="nav-item">
+          <a class="nav-link hover-underline" href="#">Overview</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link hover-underline" href="#">Demos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link hover-underline" href="#">Pages</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link hover-underline" href="#">Docs</a>
+        </li>
+      </ul>
+      <button class="btn btn-danger text-white px-3">BUY NOW</button>
+    </div>
+  </div>
+</nav>
+
+
+    <!-- Hero Section -->
+    <div class="container">
+      <div class="row hero">
+        <div class="col-md-12 col-xl-6 mt-5" data-aos="fade-right">
+          <div>
+            <h1 class="fw-bolder"><b>The beauty of</b></h1>
+            <h1 class="fw-lighter">Simplicity</h1>
+          </div>
+          <p class="pe-5">
+            Square, a fully flexible Bootstrap theme that utilises timeless
+            Swiss influenced graphic design and typography to create beautiful
+            responsive websites
+          </p>
+          <button class="btn btn-pink px-5 mt-5 py-2 rounded-1 mb-5">
+            Explore Pages <i class="fa-solid fa-chevron-right"></i>
+          </button>
+          <div class="mt-5">
+            <div class="mt-5 pt-5" style="color: #6a6a6a">
+              <h5 class="pt-5">Join thousands of businesses who trust in us</h5>
+            </div>
+            <ul class="list-unstyled d-flex gap-3 mt-3">
+              <li class="fs-4" > <i class="fa-brands fa-slack fs-2 pe-2" style="color: #707070;"></i>Slack</li>
+              <li class="fs-4 mx-2" style="color: #707070;"><b>Ebay</b></li>
+              <li class="fs-4" ><i class="fa-brands fa-paypal fs-2 pe-2" style="color: #707070;"></i>Paypal</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-12 col-xl-6" data-aos="fade-left">
+          <div style="height: 700px;">
+            <img
+              src="https://square-theme.com/assets/images/photos/photo-96.jpeg"
+              class="img-fluid h-75 w-100 object-fit-cover mt-5  align-items-center justify-content-center"
+              
+              alt="Image"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Landing Pages -->
+    <div class="container">
+      <div class="row justify-content-center text-center mt-5 px-3">
+        <div class="col-2"></div>
+  <div class="col-sm-12 col-xl-8 ">
+    <h2 class="fw-bolder"><b>Landing Pages</b></h2>
+    <p class="fs-5">
+      Square offers a diverse set of impactful landing page designs with
+      beautifully clean, clear visual styling to accommodate the needs of
+      almost any application – from events and creative to technical,
+      corporate and beyond.
+    </p>
+  </div>
+          <div class="col-2"></div>
+
+</div>
+
+      <div class="row">
+        <div class="col-md-12 col-xl-6">
+          <div class="text-center mt-5" data-aos="fade-up">
+            <h4 class="fw-bolder">Event</h4>
+         
+          <div class="img" >
+            <img
+              src="https://square-theme.com/assets/images/printscreens/printscreen-01.webp"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+           </div>
+
+          <div class="text-center mt-5" data-aos="fade-up">
+            <h4 class="fw-bolder">Case Study</h4>
+          </div>
+          <div class="img" data-aos="fade-up">
+            <img
+              src="https://square-theme.com/assets/images/printscreens/printscreen-02.webp"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+
+          <div class="text-center mt-5" data-aos="fade-up">
+            <h4 class="fw-bolder">Photography</h4>
+          </div>
+          <div class="img"data-aos="fade-up">
+            <img
+              src="https://square-theme.com/assets/images/printscreens/printscreen-03.webp"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div class="col-md-12 col-xl-6">
+          <div class="text-center mt-5" data-aos="fade-up">
+            <h4 class="fw-bolder">SaaS</h4>
+          </div>
+          <div class="img"data-aos="fade-up">
+            <img
+              src="https://square-theme.com/assets/images/printscreens/printscreen-04.webp"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+
+          <div class="text-center mt-5" data-aos="fade-up">
+            <h4 class="fw-bolder">Presentation</h4>
+          </div>
+          <div class="img"data-aos="fade-up">
+            <img
+              src="https://square-theme.com/assets/images/printscreens/printscreen-05.webp"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+
+          <div class="text-center mt-5" data-aos="fade-up">
+            <h4 class="fw-bolder">App</h4>
+          </div>
+          <div class="img"data-aos="fade-up">
+            <img
+              src="https://square-theme.com/assets/images/printscreens/printscreen-06.webp"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 4col section -->
+    <div class="container-fluid bg-dark pb-5">
+      <div class="container">
+        <div class="row mt-5 text-white">
+          <div class="col-md-12 col-xl-4 px-5 mt-5">
+            <div class="ninja">
+              <i class="fa-solid fa-user-ninja fs-1 mb-3"></i>
+              <p class="fw-bolder">Not just for developers</p>
+              <p>
+                You don't need to be an expert developer to harness the user
+                friendly simplicity and flexibility of Square.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-12 col-xl-4 px-5 mt-5">
+            <div class="ninja">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="50"
+                fill="currentColor"
+                class="bi bi-columns fs-1 mb-1"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M0 2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1zm8.5 0v8H15V2zm0 9v3H15v-3zm-1-9H1v3h6.5zM1 14h6.5V6H1z"
+                />
+              </svg>
+              <p class="fw-bolder">Timeless design</p>
+              <p>
+                Taking design cues from Swiss design and typography, Square
+                offers elegant, contemporary page layouts.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-12 col-xl-4 px-5 mt-5">
+            <div class="ninja">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="40"
+                fill="currentColor"
+                class="bi bi-pen-fill fs-1 mb-1"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001"
+                />
+              </svg>
+              <p class="fw-bolder">Detailed documentation</p>
+              <p>
+                Extensive documentation covering all components and tools makes
+                implementation as elegant as the design.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Secondary Pages -->
+    <div class="container">
+      <div class="row justify-content-center text-center my-5 ">
+        <div class="col-2"></div>
+
+        <div class=" col-md-12 col-xl-8">
+          <h2>Secondary Pages</h2>
+          <p class="fs-5">
+            Clean lines, clarity of typography and considered use of white space
+            informs a highly polished visual style that is carried through an
+            extensive collection of secondary page designs.
+          </p>
+        </div>
+        <div class="col-2"></div>
+
+      </div>
+
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+          ></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2>About</h2>
+            <img
+              src="https://square-theme.com/assets/images/printscreens/printscreen-16.webp"
+              class="d-block w-100"
+              alt="First slide"
+            />
+          </div>
+          <div class="carousel-item">
+            <h2>Team</h2>
+            <img
+              src="https://square-theme.com/assets/images/printscreens/printscreen-08.webp"
+              class="d-block w-100"
+              alt="Second slide"
+            />
+          </div>
+          <div class="carousel-item">
+            <h2>Portfolio</h2>
+            <img
+              src="https://square-theme.com/assets/images/printscreens/printscreen-09.webp"
+              class="d-block w-100"
+              alt="Third slide"
+            />
+          </div>
+        </div>
+        <div class="indicatorsarrow">
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <i class="fa-solid fa-chevron-left fs-2 text-dark"></i>
+
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <i class="fa-solid fa-chevron-right fs-2 text-dark"></i>
+
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!--Main Features  -->
+     <div class="container">
+      <div class="row mt-5">
+        <div class="col-12 mt-5 pt-5">
+          <div class="text-center" >
+            <h2 class="fw-bolder fs-1"><b>Main Features</b></h2>
+            <p>
+              Square's beautiful visual design style is built on feature rich,
+              flexible foundations.
+            </p>
+          </div>
+        </div>
+      </div>
+
+<div class="container mt-5">
+  <div class="row g-4">
+    <!-- Card 1 -->
+    <div class="col-sm-12 col-md-6 col-xl-4">
+      <div class="d-flex align-items-start">
+        <i class="fa-solid fa-desktop fs-1 me-4"></i>
+        <div>
+          <h4>Fully responsive</h4>
+          <p>Square stays beautiful on all screen sizes across all devices</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col-sm-12 col-md-6 col-xl-4">
+      <div class="d-flex align-items-start">
+        <i class="bi bi-bootstrap-fill fs-1 me-4"></i>
+        <div>
+          <h4>Latest Bootstrap</h4>
+          <p>The latest version of Bootstrap has you covered for all eventualities</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col-sm-12 col-md-6 col-xl-4">
+      <div class="d-flex align-items-start">
+        <i class="fa-solid fa-layer-group fs-1 me-4"></i>
+        <div>
+          <h4>100% customizable</h4>
+          <p>A vast set of components makes your imagination the only restriction.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="col-sm-12 col-md-6 col-xl-4">
+      <div class="d-flex align-items-start">
+        <i class="fa-brands fa-sass fs-1 me-4"></i>
+        <div>
+          <h4>Built with Sass</h4>
+          <p>Take full advantage of Sass – just like Bootstrap and Us ;)</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 5 -->
+    <div class="col-sm-12 col-md-6 col-xl-4">
+      <div class="d-flex align-items-start">
+        <i class="fa-solid fa-window-restore fs-1 me-4"></i>
+        <div>
+          <h4>Cross Browser Compatible</h4>
+          <p>Compatible across all modern browsers, including Edge and IE10+</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 6 -->
+    <div class="col-sm-12 col-md-6 col-xl-4">
+      <div class="d-flex align-items-start">
+        <i class="fa-solid fa-universal-access fs-1 me-4"></i>
+        <div>
+          <h4>Accessible</h4>
+          <p>Square is open to all with accessibility central to the design</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <!-- Code Image Section -->
+    <div class="container">
+      <div class="row mt-5 pt-5">
+        <div class="col-lg-12 col-xl-6 mt-5" >
+          <div>
+            <img
+              src="https://square-theme.com/assets/images/printscreens/editor.webp"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="col-lg-12 col-xl-6 mt-5 pt-5 ps-5">
+          <p class="fw-bolder">
+            <b
+              ><i
+                class="fa-solid fa-check me-3 fw-bolder"
+                style="color: #dc1818"
+              ></i></b
+            >Nunjucks and HTML files included
+          </p>
+          <p class="ms-4">
+            Take advantage of Nunjucks template engine or HTML to work with
+            Square in the way that suits you best
+          </p>
+
+          <p class="fw-bolder">
+            <b
+              ><i
+                class="fa-solid fa-check me-3 fw-bolder"
+                style="color: #dc1818"
+              ></i></b
+            >30,000+ unique icons in svg, pdf and png format
+          </p>
+          <p class="ms-4">
+            Extensive library of 10,500 icons in three different weights to
+            embellish and enhance designs, all for free. You name it, it's
+            there!
+          </p>
+
+          <p class="fw-bolder">
+            <b
+              ><i
+                class="fa-solid fa-check me-3 fw-bolder"
+                style="color: #dc1818"
+              ></i></b
+            >Works both with Webpack and Gulp
+          </p>
+          <p class="ms-4">
+            Use your preferred building tool with no restrictions
+          </p>
+
+          <p class="fw-bolder">
+            <b
+              ><i
+                class="fa-solid fa-check me-3 fw-bolder"
+                style="color: #dc1818"
+              ></i></b
+            >Premium plugins for FREE
+          </p>
+          <p class="ms-4">
+            No hidden extras. With Square, everything is free when it comes to
+            premium plugins
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- quote section -->
+    <div class="container-fluid bg-dark">
+      <div class="container">
+        <div class="row my-5">
+          <div class="col-2"></div>
+          <div class="col md-12 col-xl-8 text-white my-5">
+            <p class="text-center fs-5">
+                Have just started working with SQUARE theme and have to say, it
+                looks great. I love the simple and elegant layouts from a design
+                point of view. Especially the Swiss inspired typography. I can't
+                wait to get building with this theme.
+            </p>
+            <p class="text-center fs-5 text-secondary mt-4">Nelson Harris, CEO of AweSum</p>
+          </div>
+          <div class="col-2"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BUild Tools -->
+     <div class="container">
+      <div class="row">
+        <div class="col-2"></div>
+        <div class="col-sm-12 col-xl-8 mt-5 pt-5">
+          <div>
+            <div class=" my-5">
+            <h1 class="text-center fw-bolder"><b>Build tools and documentation</b></h1>
+            <p class="text-center fs-5">Components, plugins, and build tools are all thoroughly documented with live examples and markup for easier use and customization.</p>
+            </div>
+            <div style="height: 550px;" class="text-center">
+              <img src="Screenshot 2025-06-04 125027.png" class="img-fluid h-75"  alt="">
+              <p class="text-center fs-6 text-secondary mt-4">Not comfortable diving that deep?</p>
+              <p class="text-center fs-6 text-secondary">No worries, just use the compiled CSS and example pages!
+
+</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-2"></div>
+      </div>
+     </div>
+
+     <!-- New Project -->
+      <div class="container-fluid" style="background-color: rgba(218, 212, 212, 0.55);">
+      <div class="container">
+        <div class="row text-center mt-5 pt-3">
+          <div class="col-6 mt-5">
+            <div>
+              <h4><b>Start your new project with Square</b></h4>
+            </div>
+          </div>
+          <div class="col-6 px-5 pe-5">
+            <button class="btn btn-pink px-5 mt-5 py-2 rounded-1 mb-5 float-end">
+            Explore Pages <i class="fa-solid fa-chevron-right"></i>
+          </button>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <!-- Footer -->
+    <div class="container-fluid bg-dark border-bottom border-white">
+  <div class="container text-white">
+    <div class="row py-5">
+      <!-- Left Column -->
+      <div class="col-12 col-lg-6 text-center text-lg-start mb-4 mb-lg-0">
+        <h4 class="fw-bold">
+          <b><span class="border border-1 pt-2 ps-3">S</span>QUARE</b>
+        </h4>
+        <ul class="list-unstyled mt-4 d-flex justify-content-center justify-content-lg-start gap-3 class1">
+          <li><i class="fa-brands fa-instagram"></i></li>
+          <li><i class="fa-brands fa-facebook"></i></li>
+          <li><i class="fa-brands fa-skype"></i></li>
+          <li><i class="fa-brands fa-pinterest"></i></li>
+          <li><i class="fa-brands fa-chrome"></i></li>
+        </ul>
+      </div>
+
+      <!-- Right Columns (Services, Company, Help) -->
+      <div class="col-12 col-lg-6">
+        <div class="row">
+          <div class="col-sm-5 col-xl-4">
+            <ul class="list-unstyled">
+              <li class="fs-5"><b>Services</b></li>
+              <li class="mt-3">UI kit</li>
+              <li>Documentation</li>
+              <li>Page Builder</li>
+            </ul>
+          </div>
+          <div class="col-sm-5 col-xl-4">
+            <ul class="list-unstyled">
+              <li class="fs-5"><b>Company</b></li>
+              <li class="mt-3">About us</li>
+              <li>Contact us</li>
+              <li>Careers</li>
+            </ul>
+          </div>
+          <div class="col-sm-5 col-xl-4">
+            <ul class="list-unstyled">
+              <li class="fs-5"><b>Help</b></li>
+              <li class="mt-3">FAQs</li>
+              <li>Pricing</li>
+              <li>Terms</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+  <div class="container-fluid bg-dark text-white ps-5">
+    <div class="container">
+      <div class="row">
+        <div class=" col-lg-6 col-9">
+          <p><span style=":hover{
+  text-decoration: underline;
+          }">Privacy Policy</span>|<span>Cookie Policy</span></p>
+        </div>
+        <div class="col-lg-6 col-3 float-end">
+          <p>© Square, 2020 Webinning Ltd.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <!-- Bootstrap 5 JS Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
